@@ -77,11 +77,8 @@ fun PasalistaScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-            Text("📋 Registro de Asistencia", fontSize = 24.sp)
 
-            Spacer(modifier = Modifier.height(16.dp))
 
-            Text("Bienvenido, Eythel 👋", fontSize = 20.sp)
 
             Spacer(modifier = Modifier.height(8.dp))
 
