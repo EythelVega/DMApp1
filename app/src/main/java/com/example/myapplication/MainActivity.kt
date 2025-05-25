@@ -77,8 +77,11 @@ fun PasalistaScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            Text("📋 Pasalista FIME", fontSize = 40.sp)
 
+            Spacer(modifier = Modifier.height(30.dp))
 
+            Text("Bienvenido👋", fontSize = 20.sp)
 
             Spacer(modifier = Modifier.height(8.dp))
 
