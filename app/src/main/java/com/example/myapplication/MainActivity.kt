@@ -79,15 +79,15 @@ fun PasalistaScreen() {
 
             Text("📋 Pasalista FIME", fontSize = 40.sp)
 
-            Spacer(modifier = Modifier.height(30.dp))
+            Spacer(modifier = Modifier.height(40.dp))
 
-            Text("Bienvenido👋", fontSize = 20.sp)
+            Text("Bienvenido👋", fontSize = 30.sp)
 
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(15.dp))
 
-            Text("Fecha y hora: $currentTime", fontSize = 16.sp)
+            Text("Fecha y hora: $currentTime", fontSize = 20.sp)
 
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(42.dp))
 
             when (asistenciaRegistrada) {
                 true -> {
