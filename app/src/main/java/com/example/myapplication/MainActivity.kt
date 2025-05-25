@@ -83,7 +83,7 @@ fun PasalistaScreen() {
 
             Text("Bienvenido👋", fontSize = 30.sp)
 
-            Spacer(modifier = Modifier.height(15.dp))
+            Spacer(modifier = Modifier.height(16.dp))
 
             Text("Fecha y hora: $currentTime", fontSize = 20.sp)
 
