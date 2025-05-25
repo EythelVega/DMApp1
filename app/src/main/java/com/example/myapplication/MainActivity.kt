@@ -24,7 +24,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
-import androidx.fragment.app.FragmentActivity // ¡Clave!
+import androidx.fragment.app.FragmentActivity
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.concurrent.Executor
@@ -64,10 +64,10 @@ fun PasalistaScreen() {
         }
     }
 
-    Box( // Fondo ya cambiado aquí
+    Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFE3F2FD)) // Fondo azul claro
+            .background(Color(0xFFE3F2FD))
     ) {
         Column(
             modifier = Modifier
